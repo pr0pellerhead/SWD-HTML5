@@ -1,0 +1,13 @@
+.username{
+	width: 150px;
+	height: 26px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background-color: silver;
+	background-image: url(../images/ico_user.png);
+	background-repeat: no-repeat;
+	background-position: 4px;
+	box-sizing: border-box;
+	padding: 0px 5px 0px 26px;
+}
