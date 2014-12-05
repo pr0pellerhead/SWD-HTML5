@@ -47,6 +47,8 @@ html, body{
 	.modal-body{
 		padding: 20px;
 		box-sizing: border-box;
+		overflow-y: scroll;
+		height: calc(100% - 105px);
 	}
 	.modal-footer{
 		width: 100%;

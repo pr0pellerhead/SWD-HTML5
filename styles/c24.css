@@ -1,0 +1,19 @@
+body{
+	margin: 0px;
+	height: 100%;
+}
+.anime{
+	width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: square 5s; /* Chrome, Safari, Opera */
+}
+
+@-webkit-keyframes square{
+	0%   {background:red; left: 0px; top: 0px;}
+    25%  {background:yellow; left: 0px; top: 0px;}
+    50%  {background:blue; left: 200px; top: 0px;}
+    75%  {background:green; left: 0px; top: 200px;}
+    100% {background:red; left: 0px; top: 0px;}
+}
