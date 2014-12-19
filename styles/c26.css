@@ -1,0 +1,47 @@
+body{
+	background: red;
+}
+.container{
+
+}
+
+.box{
+	font-family: sans-serif;
+	color: black;
+	width: 30%;
+	margin: 1.5%;
+	background-color: white;
+	float: left;
+}
+
+	.box h1{
+		width: 100%;
+		margin: 0px;
+		padding: 5px;
+		box-sizing: border-box;
+		color: white;
+		background: black;
+	}
+
+	.box p{
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+@media screen and (max-width: 1024px) and (min-width: 641px){
+	body{
+		background: green;
+	}
+	.box{
+		width: 47%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	body{
+		background: yellow;
+	}
+	.box{
+		width: 97%;
+	}
+}
