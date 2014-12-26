@@ -1,0 +1,18 @@
+html, body{
+	height: 100%;
+	min-height: 100%;
+	background: black;
+}
+header{
+	height: 100px;
+	background: red;
+}
+div{
+	height: 100%;
+	background: yellow;
+	/*margin-top: -100px;*/
+}
+footer{
+	height: 100px;
+	background: blue;
+}
