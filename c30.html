@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>New Page</title>
+		<link rel="stylesheet" href="styles/c30.css"/>
+		<script src="scripts/jquery-2.1.3.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			var sliderPosition = 0;
+
+			$('.slide-right').on('click', function(){
+
+				if(sliderPosition < 1000){
+					sliderPosition = sliderPosition + 500;
+					value = '-' + sliderPosition + 'px'
+					// -1000px
+
+					$('.slider-wrapper').css('margin-left', value);
+				}
+			});
+
+			$('.slide-left').on('click', function(){
+				if(sliderPosition > 0){
+					sliderPosition = sliderPosition - 500;
+					$('.slider-wrapper').css('margin-left', '-' + sliderPosition + 'px');
+					// -500px
+				}
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="slider">
+			<span class="slide-left"></span>
+			<span class="slide-right"></span>
+			<div class="slider-wrapper">
+				<img src="images/slide1.jpg" alt=""/>
+				<img src="images/slide2.jpg" alt=""/>
+				<img src="images/slide3.jpg" alt=""/>
+			</div>
+		</div>
+	</body>
+</html>
